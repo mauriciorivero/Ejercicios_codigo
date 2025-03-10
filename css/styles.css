@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 20px 0;
+    width: 40vw;
+}
+
+section{
+    border: solid 2px gray;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 80vw;
+}
