@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Plantilla inicial para ejecución de ejericios de programación</h1>
+    <p>Esta pagina web contiene los componentes inciales para leer datos del usuario y mostrar resultados en pantalla de modo que puedan usarse para ejecutar ejercicios de programación</p>
+
+    <section>
+        <h2>Problema 4</h2>
+        <p>Desarrolla un programa que clasifique a una persona según su edad en categorías: niño, adolescente, adulto o adulto mayor.</p>
+        <input id="edad" type="number" placeholder="Digite la edad">
+        <button id="ejecutarBtn5">Clasificar edad</button>
+    </section>
+    <script>
+        
+        document.getElementById('ejecutarBtn5').addEventListener('click', function(){
+            let edad = document.getElementById('edad').value;
+            /* Escribe tu código aquí */
+            
+            
+            //Este alert puede ser usado para mostrar el resultado en pantalla
+            alert("mensaje de salida con el resultado");
+
+            //Este es otra alternativa para mosstrar resultado de salida en pantalla
+            document.writeln("mensaje de salida con el resultado");
+        });
+        
+    </script>
+</body>
+</html>

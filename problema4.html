@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Plantilla inicial para ejecución de ejericios de programación</h1>
+    <p>Esta pagina web contiene los componentes inciales para leer datos del usuario y mostrar resultados en pantalla de modo que puedan usarse para ejecutar ejercicios de programación</p>
+
+    <section>
+        <h2>Problema 4</h2>
+        <p>Crea una calculadora simple que realice operaciones básicas (+, -, *, /) entre dos números.</p>
+        <input id="numero1" type="number" placeholder="Digite numero1">
+        <input id="numero2" type="number" placeholder="Digite numero2">
+        <select id="operacion">
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicación</option>
+            <option value="division">Division</option>
+        </select>
+        <button id="ejecutarBtn3">Calcular</button>
+    </section>
+    <script>
+        /*
+            Aquí se escribe el código de JavaScript que se encargará de leer los datos del usuario y mostrar los resultados en pantalla para el problema
+        */
+        const ejecutarBtn3 = document.getElementById('ejecutarBtn3');
+        ejecutarBtn3.addEventListener('click', () => {
+            const numero1 = document.getElementById('numero1').value;
+            const numero2 = document.getElementById('numero2').value;
+            const operacion = document.getElementById('operacion').value;
+            /* 
+                Aquí se escribe el código que realizará la operación seleccionada por el usuario
+            */
+           
+            //Este alert puede ser usado para mostrar el resultado en pantalla
+            alert("mensaje de salida con el resultado");
+
+            //Este es otra alternativa para mosstrar resultado de salida en pantalla
+            document.writeln("mensaje de salida con el resultado");
+        });
+
+
+        
+    </script>
+</body>
+</html>
